@@ -5,28 +5,55 @@
 # `$XDG_CONFIG_HOME/git/ignore` or `~/.config/git/ignore`
 
 # Ignore bundler config.
-aligna_api/.bundle
+alinga_api/.bundle
 
 # Ignore all environment files.
-align_api/.env*
+alinga_api/.env*
 
 # Ignore all logfiles and tempfiles.
-align_api/log/*
-align_api/tmp/*
-align_api/log/.keep
-align_api/tmp/.keep
+alinga_api/log/*
+alinga_api/tmp/*
+alinga_api/log/.keep
+alinga_api/tmp/.keep
 
 # Ignore pidfiles, but keep the directory.
-align_api/tmp/pids/*
-align_api/tmp/pids/
-align_api/tmp/pids/.keep
+alinga_api/tmp/pids/*
+alinga_api/tmp/pids/
+alinga_api/tmp/pids/.keep
 
 # Ignore storage (uploaded files in development and any SQLite databases).
-align_api/storage/*
-align_api/storage/.keep
-align_api/tmp/storage/*
-align_api/tmp/storage/
-align_api/tmp/storage/.keep
+alinga_api/storage/*
+alinga_api/storage/.keep
+alinga_api/tmp/storage/*
+alinga_api/tmp/storage/
+alinga_api/tmp/storage/.keep
 
 # Ignore master key for decrypting credentials and more.
-align_api/config/master.key
+alinga_api/config/master.key
+
+
+#### Frontend #####
+# Logs
+aligna_frontend/logs
+aligna_frontend/*.log
+aligna_frontend/npm-debug.log*
+aligna_frontend/yarn-debug.log*
+aligna_frontend/yarn-error.log*
+aligna_frontend/pnpm-debug.log*
+aligna_frontend/lerna-debug.log*
+
+aligna_frontend/node_modules
+aligna_frontend/dist
+aligna_frontend/dist-ssr
+aligna_frontend/*.local
+
+# Editor directories and files
+aligna_frontend/.vscode/*
+aligna_frontend/!.vscode/extensions.json
+aligna_frontend/.idea
+aligna_frontend/.DS_Store
+aligna_frontend/*.suo
+aligna_frontend/*.ntvs*
+aligna_frontend/*.njsproj
+aligna_frontend/*.sln
+aligna_frontend/*.sw?
